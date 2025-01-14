@@ -1,0 +1,67 @@
+.weather-container {
+    position: relative;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-inline: 120px;
+}
+
+.weather-icon {
+    width: 200px;
+}
+
+.weather-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.current-weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.days-forecast {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 50px;
+}
+
+.days-forecast h2 {
+    
+}
+
+.weather-cards {
+    display: flex;
+    gap: 60px;
+}
+
+.weather-cards .card {
+    list-style-type: none;
+} 
+
+.weather-details {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.soil {
+    display: flex;
+}
+
+.soil .soil-details-box {
+    width: 70%;
+    padding: 10px 20px;
+}
+
+.soil .helpers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    padding: 10px 30px;
+}

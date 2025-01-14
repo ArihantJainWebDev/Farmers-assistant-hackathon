@@ -1,0 +1,77 @@
+.surveyform-container {
+    position: relative;
+    top: 120px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    margin: auto;
+    width: 60vw;
+    height: 70vh;
+    gap: 30px;
+    border: 5px solid #ccc;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+}
+
+.heading {
+    font-size: 18px;
+    text-align: center;
+    color: #110;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #000;
+}
+
+.name-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.place-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+}
+
+.phone-input div span {
+    margin-left: 10px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input {
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+}
+
+.place-input label, .place-input input {
+    width: 100%;
+}
+
+.form-btn button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    margin: auto;
+    width: 100%;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.form-btn button:hover {
+    background-color: #b2a3a3;
+    color: #333;
+}
